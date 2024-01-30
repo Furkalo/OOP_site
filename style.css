@@ -1,0 +1,256 @@
+@import "compass/css3";
+
+@import "compass/css3";
+@import "compass/reset";
+
+body{
+	background-color: #d7d7d7;
+	font-family: "Bradley Hand", "cursive";
+	font-size: 16px;
+	padding-top: 200px;
+    margin: 0;
+	
+}
+b{
+	font-size: 1.4rem;
+}
+img{
+	width: 100%;
+}
+.form{
+	width: 15%;
+}
+.logo{
+	z-index:10001;
+}
+.my-my-list{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.a-list{
+	color: #000000;
+    font-size: 1rem;
+    background-color: #e4bdb5;
+    padding: 5px;
+    padding: 13px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family: "Snell Roundhand", cursive;
+    margin: 5px;
+    z-index: 0;
+}
+.a-list:hover{
+	color: #000000;
+	background-color: #efe7e5;
+	transition: 500ms;
+}
+
+header{
+	width: 100%;
+	height: 135px;
+	background-color: #dc9e73;
+	text-align: center;
+	position: relative;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	z-index: 1000;
+
+	h1{
+		font-size: 42px;
+		color: #000000;
+		line-height: 30px;
+		text-transform: uppercase;
+		font-weight: 100;
+		font-family: "Snell Roundhand", cursive;
+	}
+	nav{
+		position: absolute;
+        bottom: 0;
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+		background-color: #966848;
+		margin-left: 0px;
+		padding-left: 15px;
+		a{
+			color: #ecdedead;
+			font-size: 1rem;
+			background-color: #231d03db;
+            padding: 5px;
+            padding: 13px 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+			border-radius: 20px;
+			font-family: "Snell Roundhand", cursive;
+			margin: 5px;
+		}
+		a:hover{
+			color: #ffffff;
+			background-color: #000000;
+			transition-duration:0.5s;
+		}
+	}
+}
+h2{
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 2;
+	color: #2c3e50;
+}
+p{
+	margin-bottom: 1.5rem;
+    line-height: 1.5;
+    color: #000000;
+    font-size: 1.3rem;
+	font-family: "Andale Mono", monospace;
+}
+.wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+section{
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	width: 100%;
+	
+}
+.last{
+	background-color: #fff;
+	margin-bottom: -200px;
+	padding: 20px;
+	width: 100%;
+}
+
+.up{
+	position: absolute;
+	top: 85%;
+	left:90%;
+	width: 80px;
+	display: block;
+	position: fixed;
+	z-index: 100000000;
+}
+.class_up{
+    border-radius: 35px;
+    background-color: #fefc90;
+    font-size: 3rem;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #e08674;;
+	font-family: "Snell Roundhand", cursive;
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,800');
+
+#page {
+	.content {
+		height: 30px;
+		flex-grow: 1;
+	}
+	footer {
+		z-index: -1;
+		flex-grow: 0;
+		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		h3 {
+			font-family: 'Libre Franklin', sans-serif;
+			font-weight: 800;
+			text-transform: uppercase;
+			font-size: 40px;
+			letter-spacing: -.02em;
+		}
+	}
+}
+
+footer {
+	height: 30vh;
+	min-height: 300px;
+	background: #ecf0f1;;
+	position: relative;
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+	.wave {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 20%;
+		z-index: 1;
+		overflow: hidden;
+		&:after {
+			content: '';
+			display: block;
+			background: #E4BDB5;
+			width: 100%;
+			height: 100%;
+		}
+		svg {
+			vertical-align: top;
+			margin-bottom: -5px;
+			width: 800%;
+			height: auto;
+			animation: footer-wave 20s linear infinite;
+			* {
+				fill: #E4BDB5;
+			}
+		}
+	}
+}
+@keyframes footer-wave {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-50%, 0, 0);
+	}
+}
+
+.lol{
+	font-size: 120px;
+    text-decoration: none;
+    color: #ba8e00;
+}
+
+
+.start{
+	font-family: 'Lora', serif;
+	font-size: 3rem;
+	margin: 30px;
+}
+
+.kok{
+	position: relative;
+	left:35%;
+	font-size: 1rem;
+}
+
+.furkalo{
+	position: relative;
+    left: 25%;
+}
+
+.robot{
+	position: absolute;
+    top: 65%;
+    left: 43%;
+}
