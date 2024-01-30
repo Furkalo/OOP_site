@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style_test.css">
+    <link rel="stylesheet" href="Lab_1_theory.css">
+    <link rel="icon" href="../../Rating/photo/logo_2.png" type="image/png">
+    <title>У тебе все вийде)</title>
+</head>
+<body>
+    <!-- Overlay for fixed sidebar -->
+<div class="sidebar-overlay"></div>
+
+<header>
+    <h1>Навчайся через практику! C#</h1>
+    <nav>
+      <a href="#">Теоретичні відомості</a>
+      <a href="../Text/Lab_3_text.html">Текст програми та Виконання прикладу</a>
+      <a href="../example/Lab_3_example.html">Варіанти завдань</a>
+      <a href="../Test/Lab_3_test.html">Контрольні запитання та література</a>
+    </nav>
+  </header>
+
+<!-- navbar  -->
+<div class="navbar">
+
+  <input type="checkbox" class="checkbox" id="click" hidden>
+
+  <!-- sidebar -->
+  <div class="sidebar">
+      <label for="click">
+          <div class="menu-icon">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+          </div>
+          <p class="sidebar-text">Лаб 3</p>
+      </label>
+  </div>
+  <!-- end of sidebar -->
+
+<!--navigation-->
+<nav class="navigation">
+  <div class="navigation-header">
+    <h1 class="navigation-heading">Робота</h1>
+    
+  </div>
+  
+  <ul class="navigation-list">
+    <li class="navigation-item">
+      <a href="../../Lab_1/Theory/Lab_1.html" class="navigation-link">Лабораторна робота №1</a>
+    </li>
+    <li class="navigation-item">
+      <a href="../../Lab_2/Theory/Lab_2_theory.html" class="navigation-link">Лабораторна робота №2</a>
+    </li>
+    <li class="navigation-item">
+      <a href="../Theory/Lab_3_theory.html" class="navigation-link">Лабораторна робота №3</a>
+    </li>
+    <li class="navigation-item">
+      <a href="../../Lab_4/Theory/Lab_4_theory.html" class="navigation-link">Лабораторна робота №4</a>
+    </li>
+    <li class="navigation-item">
+      <a href="../../Lab_5/Theory/Lab_5_theory.html" class="navigation-link">Лабораторна робота №5</a>
+    </li>
+    <li class="navigation-item">
+      <a href="../../Lab_6/Theory/Lab_6_theory.html" class="navigation-link">Лабораторна робота №6</a>
+    </li>
+    <li class="navigation-item">
+      <a href="https://docs.google.com/document/d/1ptKIyE0X2zUnQkgTMD9tHxrOsJyIKWYG3R9astTJBKA/edit" target="_blank" class="navigation-link">Теми індивідуальних творчих робіт</a>
+    </li>
+    <li class="navigation-item">
+      <a href="../../Rating/index.html" class="navigation-link">Рейтингова система</a>
+    </li>
+  </ul>
+</nav>
+</div>
+<!-- end of navbar  -->      
+
+
+  <div class="wrapper">
+      <section id='steezy'>
+        <div class="up">
+          <a class= "class_up" href="#">UP</a>
+        </div>
+        <h1 style="color: #966848; font-size:2.2rem">Лабораторна робота № 3.</h1>
+        <b>
+          Конструктори та аксесори класів, покажчик this, вкладені клаcи,
+          статичні поля та методи класу,
+          використання текстових файлів в C#
+        </b>
+        <h1 style="font-size:2rem;">Мета роботи</h1>
+        <p>
+          1. Навчитись розробляти власні класи та використовувати їх у програмах.<br>
+          2. Застосовувати конструктори класів для створення об’єктів.<br>
+          3. Використовувати властивості (аксесори) класів для доступу до членів класу.<br>
+          4. Опанувати технології вкладення класів і часткових класів і методів.<br>
+          5. Навчитись використовувати статичні класи, поля та методи<br>
+          6. Набути досвіду використання текстових файлів для збереження даних про
+          об’єкти.<br>
+        </p>
+
+      </section>
+
+    <section id='real'>
+      <h1>Методичні рекомендації до виконання лабораторної роботи</h1>
+      <p>
+        1. Прочитайте лекцію та матеріал у підручнику.<br>
+        2. Прочитайте методичні вказівки до лабораторної роботи №3 та виконайте
+        наведені в ній приклади.<br>
+        3. При вивченні теми лекції і виконанні завдань зверніть увагу на особливості
+        створення конструкторів класу в C#:<br>
+        • конструктор не повертає значення;<br>
+        • конструктор може бути з параметрами і без параметрів;<br>
+        • у класі можуть бути визначені декілька конструкторів з різними списками
+        параметрів;<br>
+        • якщо конструктор відсутній, то він створюється автоматично (конструктор за
+        замовчуванням). Такий конструктор не має параметрів;<br>
+        • якщо в класі визначений хоча б один конструктор, конструктор за
+        замовчуванням автоматично системою не додається.<br>
+        4. Також зверніть увагу, що для доступу до закритих полів класу в C# призначені<br>
+        спеціальні методи-властивості get i set. Якщо відсутня частина set, властивість
+        доступна лише для читання (read-only), якщо відсутня частина get, властивість
+        доступна лише для запису (write-only).<br>
+        5. Для поглибленого вивчення цього матеріалу прочитайте розділи книги [1].<br>
+      </p>
+    </section >
+
+    <section class="last">  
+      <h1>Порядок виконання роботи</h1>
+      <p>
+        1. Створити директорію Lab3, в якій розмістити файли проєкту лабораторної роботи №3.<br>
+        2. Виконати завдання свого варіанту у вигляді одного консольного проєкту.<br>
+        3. Кожний клас лабораторної роботи №3 реалізувати у вигляді окремого файлу.cs<br>
+      </p>
+    </section>
+
+    
+</div>
+
+<div id="page">
+  <footer>
+    <div class="wave">
+  <svg width="516px" height="63px" viewBox="0 -1 516 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <path d="M465.8994,4.8023 C446.8704,0.1653 446.8544,10.3203 432.2774,10.9823 C412.6824,11.8733 403.5104,-0.1977 386.8714,0.0033 C370.2314,-0.1977 357.0194,8.6003 357.0194,8.6003 L357.0194,8.6053 C351.2924,11.3603 345.9174,13.6933 338.4874,13.6933 C322.4554,13.6933 322.9524,8.0883 311.5974,6.3063 C300.6744,4.5933 297.4354,11.2593 286.3754,11.2593 C275.3164,11.2593 268.4204,2.9423 257.9144,2.9423 C247.4084,2.9423 227.1374,9.4693 207.9854,4.8023 C188.9564,0.1653 188.9404,10.3203 174.3634,10.9823 C154.7694,11.8733 145.5964,-0.1977 128.9574,0.0033 C112.3174,-0.1977 99.1054,8.6003 99.1054,8.6003 L99.1054,8.6053 C93.3774,11.3603 88.0034,13.6933 80.5734,13.6933 C64.5414,13.6933 65.0384,8.0883 53.6834,6.3063 C42.7604,4.5933 39.5214,11.2593 28.4614,11.2593 C17.4024,11.2593 10.5054,2.9423 0.0004,2.9423 L0.0004,61.9433 L515.8284,61.9433 L515.8284,2.9423 C505.3224,2.9423 485.0514,9.4693 465.8994,4.8023" id="Fill-1" stroke="none" fill="#E4BDB5" fill-rule="evenodd"></path>
+  </svg>
+  <p class="robot">©2024 Furkalo Daniil</p>
+    </div>
+  </footer>
+  </div>
+
+
+</body>
+</div>
+</body>
+</html>
